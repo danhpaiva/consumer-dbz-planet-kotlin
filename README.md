@@ -25,7 +25,9 @@ O projeto foi desenvolvido para atender aos seguintes requisitos listados:
 
 A rota principal utilizada para a consulta de planetas é:
 
-$$\text{https://dragonball-api.com/api/planets/\{id\}}$$
+~~~
+https://dragonball-api.com/api/planets/
+~~~
 
 O parâmetro `planets` possui a responsabilidade pelo retorno de determinados planetas do anime.
 
