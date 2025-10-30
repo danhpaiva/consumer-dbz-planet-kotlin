@@ -1,4 +1,4 @@
-# 🪐 ConsumerDbzPlanet<br> Explorador de Planetas de Dragon Ball Z 🚀
+# 🪐 ConsumerDbzPlanetSuaMatricula - Explorador de Planetas de Dragon Ball Z 🚀
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Badge"/>
@@ -8,36 +8,38 @@
 
 ## 📜 Sobre o Projeto
 
-[cite_start]Este projeto é uma solução em **Kotlin** para Android desenvolvida como exercício da disciplina de **Desenvolvimento Mobile Kotlin** [cite: 2] no **Colégio | Faculdade | [cite_start]Cotemig**[cite: 1, 5].
+Esta solução em **Kotlin** para Android, chamada `ConsumerDbzPlanetSuaMatricula`, é um exercício da disciplina de **Desenvolvimento Mobile Kotlin** no **Colégio | Faculdade | Cotemig**.
 
-[cite_start]O objetivo é criar uma aplicação (`ConsumerDbzPlanetSuaMatricula` [cite: 12][cite_start]) que consuma a **Dragon Ball API** [cite: 14] [cite_start]para buscar dados de um planeta específico do universo Dragon Ball[cite: 13].
+O objetivo é consumir a **Dragon Ball API** para buscar dados de um planeta específico do universo Dragon Ball.
 
-## ✨ Requisitos Cumpridos
+## ✨ Requisitos da Atividade
 
-A solução aborda os seguintes pontos chave, com foco em boas práticas de desenvolvimento mobile:
+O projeto foi desenvolvido para atender aos seguintes requisitos listados:
 
-1.  [cite_start]**Modelagem de Dados:** Criação de uma pasta `Models` e uma Classe de Modelo Kotlin que mapeia todas as propriedades do JSON de retorno da API para a rota `/api/planets/{id}`[cite: 18].
-2.  [cite_start]**Interação com o Usuário:** A aplicação solicita ao usuário o **ID** do planeta a ser pesquisado, que é passado como parâmetro na URL da API[cite: 19].
-3.  [cite_start]**Tratamento de Exceções:** A consulta à API é encapsulada em um bloco **`Try-Catch`** para tratar possíveis erros de requisição (Rede) ou de desserialização da resposta JSON[cite: 20].
-4.  [cite_start]**Visualização:** Os dados retornados (`name`, `description` e `image`) são impressos no **LogCat** do Android Studio e/ou exibidos em uma tela (`Activity`) de resposta[cite: 21].
+* **Modelagem de Dados:** Criação de uma pasta `Models` e uma Classe de Modelo que representa todas as propriedades do JSON de retorno para esta rota.
+* **Input do Usuário:** Solicitar ao usuário para informar o **ID** que deverá ser passado como parâmetro na URL da API.
+* **Requisição Segura:** Fazer a consulta da rota API utilizando o bloco **`Try-Catch`**, tratando os possíveis erros de *Request* ou *Desserialização* da resposta.
+* **Visualização:** Imprimir os campos `name`, `description` e `image` no **LogCat** do Android Studio e/ou criar uma tela (`Activity`) de resposta para mostrar o resultado.
 
-## 🔗 Detalhes da API
+## 🔗 Rota da API
 
-| Recurso | Descrição | Rota Base |
-| :--- | :--- | :--- |
-| **Planetas** | Busca um planeta específico pelo seu ID. | [cite_start]`https://dragonball-api.com/api/planets/{id}` [cite: 15] |
+A rota principal utilizada para a consulta de planetas é:
+
+$$\text{https://dragonball-api.com/api/planets/\{id\}}$$
+
+O parâmetro `planets` possui a responsabilidade pelo retorno de determinados planetas do anime.
 
 ## 👨‍🏫 Informações Acadêmicas
 
-* [cite_start]**Disciplina:** Desenvolvimento Mobile Kotlin [cite: 2]
-* [cite_start]**Professor:** Daniel Henrique Matos de Paiva [cite: 3]
-* **Instituição:** Colégio | Faculdade | [cite_start]Cotemig [cite: 1, 5]
-* [cite_start]**Entrega:** A atividade deve ser entregue individualmente [cite: 10][cite_start], em formato `.zip` (File, Export to .zip)[cite: 22].
+* **Disciplina:** Desenvolvimento Mobile Kotlin
+* **Professor:** Daniel Henrique Matos de Paiva
+* **Instituição:** Colégio | Faculdade | Cotemig
+* **Entrega:** A entrega deve ser individual e exportada para um arquivo `.zip` (`File, Export to .zip`) para submissão no Google Classroom.
 
 ## ⚠️ Padrões de Código
 
-* [cite_start]Todos os algoritmos estão escritos em linguagem **Kotlin**[cite: 8].
-* [cite_start]O código está devidamente **indentado** [cite: 9] para garantir a legibilidade.
+* Todos os algoritmos pedidos estão escritos em linguagem **Kotlin**.
+* Todos os algoritmos estão devidamente **indentados**.
 
 ---
-*Developed by: Daniel Paiva*
+*Esta lista de exercício deve ser entregue no prazo proposto.*
